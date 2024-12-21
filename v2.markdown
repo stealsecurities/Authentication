@@ -1,1 +1,27 @@
-ill add it later
+## Shortform Endpoints
+### 1. POST/GET `/api/v2/user/index.php`
+- **Description**: Login and register utils for qyzar.eu, theres no reason you should have to use this but if you where to this is the main endpoint
+- **Parameters**:
+  - `type` (required): The command your sending, valid types: verifyToken, verify, retrieveToken, userProfile, register, and editProfile
+- **Types**:
+  - `editProfile`: This edits the target users profile,
+    - **Parameters**:
+      - ``token`` (required): The token of the target user
+      - ``profile_Url`` (not required): The url of the profile picture
+      - ``profile_Name`` (not required): The name you want to set as your profile display name.
+      - ``profile_Bio`` (not required): The bio of the profile.
+      - ``profile_Status`` (not required): The status you want to set the profile to (this isnt really used)
+  - `userProfile`: Gets the target users profile details
+    - **Parameters**:
+      - ``token`` (required): The token of the target user
+  - `retrieveToken`: The login script, returns the token
+    - **Parameters**:
+      - ``email`` (required): The email of the account
+      - ``password`` (required): The password of the account
+  - `verify`: verifies an accounts email
+    - **Parameters**:
+      - ``email`` (required): The email of the account
+      - ``code`` (required): The code sent to the email of the account
+  - `verifyToken`: verifies a token
+    - **Parameters**:
+      - ``token`` (required): The target token
