@@ -1,0 +1,3 @@
+# Server Maintenance 1/14/25
+- Updated SQL DB: Postgresql
+- Updated table syntax
