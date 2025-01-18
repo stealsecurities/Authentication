@@ -5,7 +5,7 @@
 - This GitHub repository will regularly change as its being developed. Be sure to check back regularly for updates.
 
 ## Update Log
-- `1/14/25` - `1/18/25` server update
+- `1/14/25` - `1/18/25` [server update](https://github.com/stealsecurities/Authentication/blob/5ca5cbd9288b94ffc92c4d27aba0896016e7bd3a/updateLogs/1.14.24_maintenance.markdown)
 
 ## Bucket-List
 - Refactor API v1
