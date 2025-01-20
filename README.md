@@ -6,6 +6,7 @@
 
 ## Update Log
 - `1/14/25` - `1/18/25` [server update](https://github.com/stealsecurities/Authentication/blob/5ca5cbd9288b94ffc92c4d27aba0896016e7bd3a/updateLogs/1.14.24_maintenance.markdown)
+- `1/20/25, 7:30 PM` - `1/20/25, 10:40 PM` Hosting maintenance
 
 ## Bucket-List
 - Refactor API v1
